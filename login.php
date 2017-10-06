@@ -13,6 +13,6 @@ if(mysqli_num_rows($result) > 0){
 else{
 	$row = mysqli_fetch_assoc($result);
 	$name =$row["name"];
-	echo $ran;
+	echo $myname;
 }
 ?>
