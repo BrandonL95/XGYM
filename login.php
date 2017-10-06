@@ -11,6 +11,6 @@ if(mysqli_num_rows($result) > 0){
 else{
 	$row = mysqli_fetch_assoc($result);
 	$name =$row["name"];
-	echo "Login not successfull ". $name;
+	echo "Login not successfullll ". $name;
 }
 ?>
