@@ -10,6 +10,6 @@ if(mysqli_num_rows($result) > 0){
 	echo "Login success";
 }
 else{
-	echo $user_name;
+	echo $result;
 }
 ?>
